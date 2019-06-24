@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{margin: 2% 2% 2% 2%; font-family: 'Roboto', sans-serif; background-color: limegreen}
+.container{max-width:100%; margin:auto;}
+
+img{max-width:100%;}
+.inbox_people {background: #f8f8f8 none repeat scroll 0 0;float: left;overflow: hidden;width: 40%; border-right:1px solid #c4c4c4;}
+.inbox_msg {border: 1px solid #c4c4c4;clear: both;overflow: hidden;}
+.top_spac{ margin: 20px 0 0;}
+.recent_heading {float: left; width:40%;}
+.srch_bar {width: 100%;}
+.headind_srch{ padding:10px 0px 10px 0px; overflow:hidden; /*border-bottom:1px solid #c4c4c4;*/}
+.recent_heading h4 {color: #CCC ;font-size: 21px;margin: auto;}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 0px 0; width:90%; padding:10px 0 4px 10px; background:#314659; color: #EEE;}
+.srch_bar input::placeholder{color: #CCC;}
+.srch_bar input:focus{border:0;outline:none;box-shadow:none;}
+.srch_bar .input-group-addon button {background: rgba(0, 0, 0, 0); none repeat scroll 0 0;border: medium none;padding: 0;color: #707070;font-size: 18px;}
+.srch_bar .input-group-addon button:focus{border:0;outline:none;box-shadow:none;}
+.srch_bar .fa-search{color: #CCC;}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 a{text-decoration: none; color:#464646;}
+.chat_ib h5 a:hover{text-decoration: none;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {float: left;width: 11%;}
+.chat_ib {float: left;padding: 0 0 0 15px;width: 88%;}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_people .chat_img img{border-radius: 50px;}
+.chat_list {/*border-bottom: 1px solid #c4c4c4;*/margin: 0;padding: 18px 16px 10px;}
+.inbox_chat { height: 550px; overflow-y: auto;}
+.inbox_chat::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+.inbox_chat::-webkit-scrollbar{width: 6px;}
+.inbox_chat::-webkit-scrollbar-thumb{ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);}
+.active_chat{ background:#304759; border-right: 4px solid rgba(255,255,255,.1);}
+
+.incoming_msg_img {display: inline-block;width: 6%;}
+.received_msg {display: inline-block;padding: 0 0 0 10px;vertical-align: top;width: 92%;}
+.received_withd_msg p {background: #3F5668 none repeat scroll 0 0;border-radius: 3px;color: #CCC;font-size: 14px;margin: 0;padding: 5px 10px 5px 12px;width: 100%;}
+.time_date {color: #747474;display: block;font-size: 12px;margin: 8px 0 0;}
+.received_withd_msg { width: 57%;}
+.mesgs {float: left;padding: 30px 15px 0 25px;width: 60%;}
+
+.sent_msg p {background: #F8F7F5 none repeat scroll 0 0;border-radius: 3px;font-size: 14px;margin: 0; color:#333;padding: 5px 10px 5px 12px;width:100%;}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {float: right;width: 46%;}
+.input_msg_write input {background: #FFF none repeat scroll 0 0;border: medium none;color: #4c4c4c;font-size: 15px;min-height: 48px;width: 100%;padding-left: 20px;}
+.input_msg_write input:focus{border:0;outline:none;box-shadow:none;}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {background: #05728f none repeat scroll 0 0;border: medium none;border-radius: 50%;color: #fff;cursor: pointer;font-size: 17px;height: 33px;position: absolute;right: 0;top: 11px;width: 33px; margin-right: 5px;}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {height: 610px;overflow-y: auto;}
+.msg_history::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+.msg_history::-webkit-scrollbar{width: 6px;}
+.msg_history::-webkit-scrollbar-thumb{ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);}
+.fa-check-double{color: dodgerblue;}
+
+
+.login{box-shadow: 10px 10px 5px #528D3F; background: #FFF; padding: 40px;}
+.login .login-title{background-color: dodgerblue; color: #FFF; padding: 20px; font-size: 20px; margin-bottom: 10px;}
+.login .login-content{padding: 10px;}
+.login .login-content .form-control{border-radius: 0px; height: 45px; background-color: #f2f2f2; border:none; color: #bababa; }
+.login .login-content .form-control::placeholder{color: #bababa;}
+.login .login-content .form-control:focus{border:0;outline:none;box-shadow:none;}
+.login .login-content .btn{border-radius: 0px;}
+
+.row{margin: 0px; padding: 0px;}
+.col-sm-4{/*border: 1px solid #c4c4c4;*/clear: both;overflow: hidden; padding: 0px;}
+.col-sm-8{/*border: 1px solid #c4c4c4;*/clear: both;overflow: hidden; padding: 0px 0px 0px 0px;background-color: #FFF}
+.msg_history{padding: 0px 10px 10px 10px; background-color: #E6EAEB;}
+.inbox_peoplen {background-color: #2D3E50; overflow: hidden; /*border-right:1px solid #c4c4c4;*/;}
+.inbox_chat{background-color: #2D3E50;}
+.inbox_chat .name-user{color: #CCC;}
+.inbox_chat .chat_date{color: #CCC;}
+.inbox_chat p{color: #CCC;}
+.user_infos{background-color: #2D3E50; padding: 20px;}
+.user_infos img{width: 70px; border-radius: 50px;}
+.online{border: 2px solid limegreen;}
+.user_infos span{ font-size: 20px; color: #CCC; margin-left: 2%;}
+.title-chat{background-color: #f5f5f5; padding: 0px; margin: 0px;}
+.title-chat .u-info{padding: 5px 10px 5px 10px; margin: 0px; border-bottom: 1px solid #ccc;}
+.title-chat .u-info img{width: 50px;}
+.alert{border-radius: 0px;}
+.fa-chevron-left{padding-right: 10px; color: gray}
+.fa-chevron-left:hover{color: #000;}
+.nlink{color: #ccc;}
+.nlink:hover{color: #ccc;}
+.inicio-content .form-control{border-radius: 0px;}
+
+.users .user{display: inline-block; width: 18%; text-align: center; font-size: 14px;}
+.users .user .img-user{width: 120px;}
+.users .user{margin-top: 10px;}
+.users .user a{text-decoration: none; color: #000;}
+.infos-login{text-align: right}
+.infos-login a{text-decoration: none; color: #000;}
+.cadastro-form{color: #333; padding: 20px; box-shadow: 10px 10px 5px #528D3F; border: 1px solid #ccc;}
+.cadastro-form .form-control{border-radius: 0px;}
+.cadastro-form .btn{border-radius: 0px;}
+.cadastro-form .form-control:focus{outline:none;box-shadow:none;}
+.edit-dados{margin: 20px;}
+.edit-dados .form-control{border-radius: 0px;}
+.edit-dados .btn{border-radius: 0px;}
+
+
+@media (min-width:992px) {/*DESKTOP*/
+	#backbtn{display: none;}
+
+}
+
+@media (max-width:992px) {/*MOBILE*/
+	.users .user{margin: 10px;}
+}
