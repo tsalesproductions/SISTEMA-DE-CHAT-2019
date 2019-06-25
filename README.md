@@ -9,7 +9,7 @@ Sistema totalmente funcional para chats em real time;
 
 <hr>
 
-<img src="http://tutoriaiseinformatica.com/blog/images/uploads/img_1651599048_img-a.png">
+<img src="https://i.imgur.com/nmRMFNb.png">
 
 <hr>
 
