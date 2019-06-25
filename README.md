@@ -8,7 +8,9 @@ Sistema totalmente funcional para chats em real time;
 < base href="http://192.168.0.100/chat/"> ou localize a linha número <b>13</b> e troque o ### http://192.168.0.100/chat/ ### pelo url do seu site<br>
 
 <hr>
+
 <img src="http://tutoriaiseinformatica.com/blog/images/uploads/img_1651599048_img-a.png">
+
 <hr>
 
 2º Importar o banco de dados <b>teste.sql</b> localizado na pasta <b>banco de dados</b>;<br>
