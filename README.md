@@ -16,3 +16,6 @@ Sistema totalmente funcional para chats em real time;
 3º Acessar o diretório <b>lib/dbconnect.php</b> e trocar os dados do banco atual para o seu;<br>
 
 Após isso, seja feliz :)
+
+<div align="center">USE A VONTADE!</div>
+Para mais informações e sobre updates acesse: http://tutoriaiseinformatica.com/blog/p/sistema-de-chat-2019
